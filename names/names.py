@@ -37,6 +37,7 @@ for i in range(len(names_2)):
     if names.contains(names_2[i]):
         duplicates.append(names_2[i])
 # runtime on my machine was 0.33 seconds
+# O(n log n)
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
